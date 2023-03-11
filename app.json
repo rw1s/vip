@@ -1,0 +1,39 @@
+{
+    "name": "SOSTA SOURCE",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "repository": "https://github.com/3mksosta/vip",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/3mksosta/vip",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "api hash ",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": " ~@~ بدون يوزر البوت",
+            "value": "",
+            "required": true
+        }
+    }
+}
